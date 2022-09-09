@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success/corrent)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success/correct)
+*/
 
 int main(void)
 {
@@ -17,12 +17,12 @@ n = rand() - RAND_MAX / 2;
 
 if (n == 0)
 {
-printf("%i is zero\n:, n);
+printf("%i is zero\n", n);
 }
 
-else if (n < 0)
+else if (n < 0 )
 {
-printf("%i is nagative\n", n);
+printf("%i is negative\n", n);
 }
 
 else
