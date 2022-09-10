@@ -12,7 +12,7 @@ int main(void)
 		putchar(base_16);
 		 
 
-		 for (base_16 = 97; = 102; base_16++)
+		 for (base_16 = 97; <= '102'; base_16++)
 		 {
 		 putchar(base_16);
 		 }
@@ -21,4 +21,4 @@ int main(void)
 
 		 return (0);
 
-		 }
+}
