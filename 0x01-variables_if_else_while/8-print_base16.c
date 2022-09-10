@@ -1,27 +1,24 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
- * main(void)
+ * main - entry point
  *
- * Return: Always 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
-{
+ {
+	char base_16;
+	
+	for (base_16 = 48; base_16 <= 57; base_16++)
+		(putchar(base_16);
+		 }
 
-  int d;
+		 for (base_16 = 97; <= 102; base_16++)
+		 {
+		 putchar(base_16);
+		 }
 
-  char low;
+		 putchar('\n');
 
-  for (d = '0'; d <= '9'; d++)
-       putchar(d);
-  for (low = 'a'; low <= 'f'; low++)
-  
-	  putchar(low);
-       
-          putchar('\n');
+		 return (0);
 
-  return (0);
-
-}
+		 }
