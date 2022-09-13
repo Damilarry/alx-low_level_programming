@@ -2,21 +2,20 @@
 
 /**
  * main - Entry point
- *
+ * Description: You are not allowed to include standard librabries
  * Return 0  (Success)
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	char main.h{} = "main.h";
+	int i = 0;
 
-	_putchar(0);
+	while (main.h[i] != '\0')
+	{
+		_putchar(main.h[i]
+		i++;
+         }
+	 _putchar('\n');
 
+	 return (0);
 }
