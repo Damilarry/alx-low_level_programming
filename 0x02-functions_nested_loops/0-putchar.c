@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * Description: A program that prints
- * Return: 0 (Success)
+ *
+ * Return 0  (Success)
  */
 int main(void)
 {
@@ -15,8 +15,8 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-
 	_putchar('\n');
 
-       	return (0);
+	_putchar(0);
+
 }
