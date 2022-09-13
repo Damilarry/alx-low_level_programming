@@ -8,15 +8,15 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-
+{
 char i = 'a';
 
 while (i <= 'z')
 
 
-putchar(c);
-c++;
+putchar(i;
+i++;
 
 putchar('\n');
 
-
+}
