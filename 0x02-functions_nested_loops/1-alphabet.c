@@ -1,4 +1,4 @@
-nclude "main.h"
+nclude "stdio.h"
 
 /**
  * print_alphabet -> prints the lowercase alphabets
@@ -7,7 +7,8 @@ nclude "main.h"
 void print_alphabet(void)
 {
 	int j;
-	for (j = 'a' ; <= 'z'; j++
+
+	for (j = 'a' ; <= 'z'; j++}
 {
 	putchar(j);
 }
