@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * 
- * Description - print the alphabet, in lowercase using only _putchar
+ * Description - print the alphabet, in lowercase using only putchar
  *
  * Return: Always 0 (Success)
  */
@@ -17,6 +17,6 @@ while (c <= 'z')
 putchar(c);
 c++;
 
-
 putchar('\n');
+
 }
