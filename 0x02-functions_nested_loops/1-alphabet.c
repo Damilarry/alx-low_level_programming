@@ -9,11 +9,14 @@
  */
 int main(void)
 {
-chat c = 'a';
+
+char c = 'a';
 while (c <= 'z')
+
 {
-putcha(c);
+putchar(c);
 c++;
 }
+
 putchar('\n');
 }
