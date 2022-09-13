@@ -5,7 +5,7 @@
 /**
  * print_alphabet -> prints the lowercase alphabets
  */
-int main(void)
+main print_alphabet(void)
 {
 
 int j;
@@ -13,7 +13,7 @@ int j;
 for (j = 'a'; j <= 'z'; j++)
 {
 putchar(j);
-}
+
 putchar('\n');
 
 }
