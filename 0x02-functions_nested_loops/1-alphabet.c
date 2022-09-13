@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "header.h"
 
 /**
  * print_alphabet - Print alphabet in lowercase using only `_putchar`
  *
- * Return: Always 0 (Suc
+ * Return: Always 0 (Success)
  */
 void print_alphabet(void)
 {
