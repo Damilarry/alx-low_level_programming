@@ -1,22 +1,17 @@
 #include "stdio.h"
-
 /**
- * main - Entry point
- * 
- * Description - print the alphabet, in lowercase using only putchar
+ * print_alphabet - Print alphabet in lowercase using only `_putchar`
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Suc
  */
-int main(void)
+void print_alphabet(void)
 {
-char i = 'a';
+char c = 'a';
 
-while (i <= 'z')
-
-
-putchar(i;
-i++;
-
-putchar('\n');
-
+while (c <= 'z')
+{
+_putchar(c);
+c++;
+}
+_putchar('\n');
 }
