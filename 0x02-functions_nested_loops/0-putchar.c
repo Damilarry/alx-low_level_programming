@@ -1,21 +1,21 @@
 #include "stdio.h"
-
 /**
  * main - Entry point
- * Description: You are not allowed to include standard librabries
+ * Description: Write a program that prints _putchar
  * Return 0  (Success)
  */
 int main(void)
 {
-	 putchar('_');
-	 putchar('p');
-	 putchar('u');
-	 putchar('t');
-	 putchar('c');
-	 putchar('h');
-	 putchar('a');
-	 putchar('r');
-	 putchar('\n');
+        putchar('_');
+	putchar('p');
+        putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
-         return (0);
+ 
+	 return (0);
 }
