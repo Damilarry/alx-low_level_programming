@@ -1,4 +1,8 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "header.h"
+
 /**
  * print_alphabet - Print alphabet in lowercase using only `_putchar`
  *
@@ -6,7 +10,7 @@
  */
 void print_alphabet(void)
 {
-char c = "a";
+char {c = 'a';}
 
 while (c <= 'z')
 {
