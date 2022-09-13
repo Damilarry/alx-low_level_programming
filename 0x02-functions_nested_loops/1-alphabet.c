@@ -3,20 +3,19 @@
 /**
  * main - Entry point
  * 
- * Description - 'prints the alphabet, in lowercase'
+ * Description - print the alphabet, in lowercase using only '_putchar'
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-
 char c = 'a';
-while (c <= 'z')
 
+while (c <= 'z')
 {
 putchar(c);
 c++;
 }
 
-putchar('\n');
+_putchar('\n');
 }
