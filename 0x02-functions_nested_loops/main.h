@@ -1,1 +1,1 @@
- lowercase
+#!/bin/bash
