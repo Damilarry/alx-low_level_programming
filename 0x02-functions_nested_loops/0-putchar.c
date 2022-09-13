@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-	char main.h{} = "main.h";
-	int i = 0;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	while (main.h[i] != '\0')
-	{
-		_putchar(main.h[i]
-		i++;
-         }
-	 _putchar('\n');
-
-	 return (0);
+         return (0);
 }
