@@ -8,10 +8,10 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-char c = 'a';
 
-while (c <= 'z')
+char i = 'a';
+
+while (i <= 'z')
 
 
 putchar(c);
@@ -19,4 +19,4 @@ c++;
 
 putchar('\n');
 
-}
+
