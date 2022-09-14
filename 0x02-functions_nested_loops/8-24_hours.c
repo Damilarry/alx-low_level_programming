@@ -19,16 +19,13 @@ else if (i >= 10)
 _putchar((i / 10) + '0');
 _putchar((i % 10) + '0');
 }
-
-if (j < 10);
-
+if (j < 10)
 {
 _putchar(':');
 _putchar('0');
 _putchar(j);
 }
-
-else if (J > 10)
+else if ( J > 10)
 {
 _putchar(':');
 _putchar((J / 10) + '0');
