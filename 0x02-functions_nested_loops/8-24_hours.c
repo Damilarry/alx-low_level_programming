@@ -25,7 +25,7 @@ _putchar(':');
 _putchar('0');
 _putchar(j);
 }
-else if ( J > 10)
+else if (j > 10)
 {
 _putchar(':');
 _putchar((J / 10) + '0');
