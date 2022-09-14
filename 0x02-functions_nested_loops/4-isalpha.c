@@ -7,7 +7,8 @@
  *
  * Return: returns 0 or 1 depending on condition
  */
-int _isapha(int c);
+int _isapha(int c)
+
 {
 return ((c >= 'a'  && c <= 'z') || (c >= 'A' && C <= 'Z'));
 }
