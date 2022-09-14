@@ -1,5 +1,4 @@
 #include "main.h"
- 
 /**
  * _isalpha - Test the _isalpha function
  *
