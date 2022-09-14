@@ -28,8 +28,8 @@ _putchar(j);
 else if (j > 10)
 {
 _putchar(':');
-_putchar((J / 10) + '0');
-_putchar((J % 10) + '0');
+_putchar((j / 10) + '0');
+_putchar((j % 10) + '0');
 }
 }
 }
