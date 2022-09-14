@@ -13,9 +13,11 @@ int x;
 
 if (n < 0)
 
-n = _n;
+n = -n;
 x = n % 10;
-_putchar(x + '0')
+_putchar(x + '0');
+
 return (n % 10);
+
 }
 
