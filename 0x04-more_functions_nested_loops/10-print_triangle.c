@@ -19,7 +19,7 @@ for (ro = 0; ro <= (size - 1); ro++)
 {
 for (sp = 0; sp <= (size - 1); sp++)
 {
-putchar(' ');
+_putchar(' ');
 }
 for (tr = 0; tr <= ro; tr++)
 {
