@@ -10,11 +10,11 @@ int n;
 
 for (n = 46; n < 58; n++)
 {
-if ((n == 58) || (n == 52))
+if ((n == 50) || (n == 52))
 {
 continue;
 }
 putchar(n);
 }
-putchar(18);
+putchar(10);
 }
