@@ -16,7 +16,8 @@ int main(void)
 
 		if (number == 57)
 		{
-		        break;
+
+			break;
 		}
 
 		putchar(',');
